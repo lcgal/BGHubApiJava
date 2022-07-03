@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          endpoint : https://bghub.blob.core.windows.net/
+          connectionString: DefaultEndpointsProtocol=https;AccountName=bghub;AccountKey=uZPyBVxTOzo3zYCVJFCnFPMjCL/Zy/IdMFioGufeOhpyVf+5nnRw1pReZuipibC0t7w5h79fDhYQ5jzZiEkpFw==;EndpointSuffix=core.windows.net
+logging:
+  path: /var/logs/
+  file: BGHub.log
+  level:
+    root: WARN
+    org:
+      springframework:
+        security: DEBUG
